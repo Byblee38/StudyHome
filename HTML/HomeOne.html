@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="../Javascript/HomeOne.js">
+    </script>
+  </head>
+  <body>
+    <h1>Ujicoba JavaScript</h1>
+    <p id="Tombol">Behavior Lampu</p>
+    <img src="../Src/Img/offLamp.png" alt="" id="Lamp" />
+    <button
+      type="button"
+      onclick="document.getElementById('Lamp').src= '../Src/Img/onLamp.png'"
+    >
+      On Lamp
+    </button>
+    <button
+      type="button"
+      onclick="document.getElementById('Lamp').src = '../Src/Img/offLamp.png'"
+    >
+      Off Lampu
+    </button>
+    <button type="button" onclick="Home()">Klik Kesini</button>
+    <button type="button" onclick="bikinFunction()">Klik Kesini Lagi</button>
+    <button type="button" id="btn" onclick="ujiCoba()">Klik Yang Ini Coba</button>
+  </body>
+</html>
